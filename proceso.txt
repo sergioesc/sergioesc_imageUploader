@@ -1,0 +1,1 @@
+Primero creamos una carpeta backend donde instalaramos express y nodemon, donde configuramos el servidor.

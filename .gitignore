@@ -1,0 +1,12 @@
+# dependencies
+imageuploader/node_modules
+imageuploader/.pnp
+imageuploader/.pnp.js
+
+# testing
+imageuploader/coverage
+
+# production
+imageuploader/build
+
+backend/node_modules
