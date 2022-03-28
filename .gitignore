@@ -2,7 +2,7 @@
 imageuploader/node_modules
 imageuploader/.pnp
 imageuploader/.pnp.js
-
+backend/.env
 # testing
 imageuploader/coverage
 
