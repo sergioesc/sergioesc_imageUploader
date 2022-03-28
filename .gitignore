@@ -8,5 +8,4 @@ imageuploader/coverage
 
 # production
 imageuploader/build
-
 backend/node_modules
