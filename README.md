@@ -25,3 +25,6 @@ A simple Image Uploader created in React.JS and Node.JS
 using axios, and for state control React's Reducer.
 * I install a scroller (react-scroll), for aesthetic purposes.
 * Public the project in Heroku.com
+
+# Preview 
+![image](https://user-images.githubusercontent.com/93834310/160664946-63cc03dc-10f7-4d86-b642-4ea80c480bb5.png)
