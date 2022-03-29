@@ -27,4 +27,7 @@ using axios, and for state control React's Reducer.
 * Public the project in Heroku.com
 
 # Preview 
-![image](https://user-images.githubusercontent.com/93834310/160664946-63cc03dc-10f7-4d86-b642-4ea80c480bb5.png)
+
+![image](https://user-images.githubusercontent.com/93834310/160667169-2f910ec5-5b52-4109-907c-d7125368de52.png)
+
+![image](https://user-images.githubusercontent.com/93834310/160667337-2df62c53-4803-4414-a313-a87257f8779d.png)
