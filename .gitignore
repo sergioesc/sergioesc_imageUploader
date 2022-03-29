@@ -1,3 +1,4 @@
+.env
 # dependencies
 imageuploader/node_modules
 imageuploader/.pnp
@@ -10,4 +11,3 @@ imageuploader/coverage
 imageuploader/build
 backend/node_modules
 
-.env
