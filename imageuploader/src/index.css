@@ -6,14 +6,13 @@ body {
   background-color: rgb(240, 240, 240);
   font-family: "Montserrat", sans-serif;
   color: rgb(73, 71, 71);
-
 }
-.App{
+.App {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
+  flex-direction: column;
 }
 
 .uploader-container {
@@ -36,7 +35,6 @@ small {
   background-color: #9e9eff2e;
   border: 2px dashed #9e9eff90;
   position: relative;
-
 }
 .form-upload label {
   color: rgb(131, 130, 130);
@@ -55,6 +53,7 @@ input[type="file"] {
   display: flex;
   margin: 30px auto;
   box-shadow: 30px 20px 50px 5px;
+  transition: all ease .4s;
 }
 .loader {
   width: 50px;
@@ -83,13 +82,16 @@ input[type="file"] {
   max-width: 400px;
   display: flex;
   margin: 30px auto;
+  text-align: center;
   box-shadow: 30px 20px 50px 5px;
   padding: 30px;
+  transition: all ease .4s
 }
 
 .upload-inner {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 .upload-status {
   background-color: green;
@@ -103,24 +105,31 @@ input[type="file"] {
   border-radius: 50%;
 }
 
-.upload-image img {
-  width: 100%;
-  object-fit: cover;
-  margin: 20px auto;
+.upload-image {
+  margin: 0 auto;
 }
-.upload-link{
+
+.upload-image img {
+  max-width: 400px;
+  margin: 0 auto;
+  margin: 20px auto;
+  object-fit: cover;
+}
+.upload-link {
   display: flex;
   width: 100%;
   justify-content: space-between;
   align-items: center;
 }
-.upload-link p{
+.upload-link input{
   background-color: #9e9eff2e;
   width: 75%;
-  text-align: center;
   padding: 10px 5px;
+  overflow-x: hidden;
+  color: rgb(131, 130, 130);
+  border-style: none;
 }
-.upload-link button{
+.upload-link button {
   width: 20%;
   height: 40px;
   font-size: 10px;
@@ -128,4 +137,5 @@ input[type="file"] {
   border-style: none;
   background-color: rgba(55, 37, 216, 0.809);
   color: white;
+  cursor: pointer;
 }
