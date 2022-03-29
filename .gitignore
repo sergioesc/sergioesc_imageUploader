@@ -1,4 +1,4 @@
-/.env
+.env
 # dependencies
 imageuploader/node_modules
 imageuploader/.pnp
